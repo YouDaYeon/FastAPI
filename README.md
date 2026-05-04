@@ -1,7 +1,8 @@
 <aside>
 💡
 
-참고 영상: https://www.youtube.com/watch?v=6merMwBvg6A&list=PLAfbbwt24AkL7mfhWjvcqhxLnaA7Eh1Ew&index=4
+[참고 영상](https://www.youtube.com/watch?v=6merMwBvg6A&list=PLAfbbwt24AkL7mfhWjvcqhxLnaA7Eh1Ew&index=4)
+[노션 정리](https://www.notion.so/FastAPI-35618320db7180318d0edce0df86967b#35618320db7180e092a1eba466bf24f9)
 
 </aside>
 
@@ -191,7 +192,7 @@ def read_root():
     
     - 애플리케이션 시작 시 미리 일정 수의 Connection 객체를 생성하여 Pool에 보관.
     - 이후 DB 작업이 필요할 때마다 Pool에서 Connection 객체르 가져다 사용하고, 작업이 끝나면 Pool에 반환함.
-- https://dev.mysql.com/doc/connector-python/en/connector-python-connection-pooling.html
+- [MySQL Connection pool docs](https://dev.mysql.com/doc/connector-python/en/connector-python-connection-pooling.html)
     - 명시적으로 연결 방법이 좋을것같긴한데.. 어느순간부터 에러가 난다고함.
     
     ```python
