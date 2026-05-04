@@ -188,7 +188,7 @@ def read_root():
 
 - DB connection pool?
     
-    ![image.png](attachment:e82ac50f-7e7a-4f49-968d-fbe6baeed277:image.png)
+    ![<img width="1255" height="648" alt="Image" src="https://github.com/user-attachments/assets/62c396fc-3f30-4d02-8174-dff69fa06532" />](attachment:e82ac50f-7e7a-4f49-968d-fbe6baeed277:image.png)
     
     - 애플리케이션 시작 시 미리 일정 수의 Connection 객체를 생성하여 Pool에 보관.
     - 이후 DB 작업이 필요할 때마다 Pool에서 Connection 객체르 가져다 사용하고, 작업이 끝나면 Pool에 반환함.
